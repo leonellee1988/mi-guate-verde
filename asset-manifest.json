@@ -1,14 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.82b40415.css",
-    "main.js": "/static/js/main.8ba65f0c.js",
+    "main.js": "/static/js/main.35e5998b.js",
     "static/media/composterajar.png": "/static/media/composterajar.08d79c5a92e2b7e3e3cd.png",
-    "static/media/MGVA.jpg": "/static/media/MGVA.5579097a70de112c5e4a.jpg",
-    "static/media/MGVD.jpg": "/static/media/MGVD.41a7701788382c5c848e.jpg",
     "static/media/bacterspjar.png": "/static/media/bacterspjar.8e07161b4203f2cd93bd.png",
-    "static/media/MGVC.jpg": "/static/media/MGVC.ca6f8615c0b0b8f05c89.jpg",
-    "static/media/MGVB.jpg": "/static/media/MGVB.e8d79f64c77ac64edc39.jpg",
     "static/media/bactersmjar.png": "/static/media/bactersmjar.015f2e4fd8453c3df205.png",
+    "static/media/MGVG.jpg": "/static/media/MGVG.d7a52fee7c2da0e689d6.jpg",
     "static/media/carbonactjar.png": "/static/media/carbonactjar.36529a3f9021b7cb6ee1.png",
     "static/media/huertojar.png": "/static/media/huertojar.728ae1af3faf5bf8827b.png",
     "static/media/fungicidajar.png": "/static/media/fungicidajar.1768f42a9288c258d7ad.png",
@@ -17,15 +14,18 @@
     "static/media/abono.png": "/static/media/abono.c93b11428c0933bf965c.png",
     "static/media/enraizadorjar.png": "/static/media/enraizadorjar.5882f04819e6cf10ace3.png",
     "static/media/abonoDos.jpeg": "/static/media/abonoDos.6d192f46b557b3903e8f.jpeg",
+    "static/media/MGVH.jpeg": "/static/media/MGVH.6568cf1ce35d72af1268.jpeg",
+    "static/media/MGVJ.jpeg": "/static/media/MGVJ.10660e125c9482083b74.jpeg",
     "static/media/bactersp.png": "/static/media/bactersp.ade8d90470c26bd2a706.png",
+    "static/media/MGVI.jpeg": "/static/media/MGVI.1dbba0d43909b0dc9061.jpeg",
     "static/media/caobaFarms.jpg": "/static/media/caobaFarms.5f281be70dbe3ac7a8f1.jpg",
     "static/media/orquideasSYM.jpg": "/static/media/orquideasSYM.97287921db5e2cffc6f0.jpg",
     "index.html": "/index.html",
     "main.82b40415.css.map": "/static/css/main.82b40415.css.map",
-    "main.8ba65f0c.js.map": "/static/js/main.8ba65f0c.js.map"
+    "main.35e5998b.js.map": "/static/js/main.35e5998b.js.map"
   },
   "entrypoints": [
     "static/css/main.82b40415.css",
-    "static/js/main.8ba65f0c.js"
+    "static/js/main.35e5998b.js"
   ]
 }

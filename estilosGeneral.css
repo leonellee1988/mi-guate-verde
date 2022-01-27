@@ -1,0 +1,34 @@
+/*Configuración general de la página*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#rootTwo{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+#rootThree{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2956b2;
+}
+
+#rootFour{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#rootFive{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(230, 230, 230);
+}
+
+#rootSix{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 10px solid rgb(230, 230, 230);
+}

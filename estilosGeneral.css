@@ -32,3 +32,33 @@
     padding-bottom: 50px;
     border: 10px solid rgb(230, 230, 230);
 }
+
+/*Configuración botón flotante*/
+
+.btn-float{
+    position: fixed;
+    right: 25px;
+    bottom: 225px;
+    transform: scale(0);
+}
+
+.button-float{
+    font-size: 50px;
+    color: #5ab507;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.button-float:hover{
+    opacity: 100%;
+}
+
+/*-------------------------Media Query max-width: 550px-------------------------*/
+
+@media (max-width: 550px){
+
+.btn-float{
+    display: none;
+}
+
+}

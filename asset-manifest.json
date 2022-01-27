@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b54d075c.css",
+    "main.css": "/static/css/main.82b40415.css",
     "main.js": "/static/js/main.8ba65f0c.js",
     "static/media/composterajar.png": "/static/media/composterajar.08d79c5a92e2b7e3e3cd.png",
     "static/media/MGVA.jpg": "/static/media/MGVA.5579097a70de112c5e4a.jpg",
@@ -21,11 +21,11 @@
     "static/media/caobaFarms.jpg": "/static/media/caobaFarms.5f281be70dbe3ac7a8f1.jpg",
     "static/media/orquideasSYM.jpg": "/static/media/orquideasSYM.97287921db5e2cffc6f0.jpg",
     "index.html": "/index.html",
-    "main.b54d075c.css.map": "/static/css/main.b54d075c.css.map",
+    "main.82b40415.css.map": "/static/css/main.82b40415.css.map",
     "main.8ba65f0c.js.map": "/static/js/main.8ba65f0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b54d075c.css",
+    "static/css/main.82b40415.css",
     "static/js/main.8ba65f0c.js"
   ]
 }

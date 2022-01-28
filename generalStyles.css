@@ -1,0 +1,88 @@
+/*Google fonts:*/
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+/*Configuration reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header setting*/
+
+#root{
+    width: 100vw;
+}
+
+/*About us setting*/
+
+#rootTwo{
+    width: 100vw;
+    overflow: hidden;
+}
+
+/*Products menu setting*/
+
+#rootThree{
+    width: 100vw;
+}
+
+/*Products catalogue setting*/
+
+#rootFour{
+    width: 100vw;
+}
+
+/*Organic knowledge setting*/
+
+#rootFive{
+    width: 100vw;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    width: 100vw;
+    border-bottom: 10px solid rgb(230, 230, 230);
+}
+
+/*Floating button config*/
+
+.btn-float{
+    position: fixed;
+    right: 25px;
+    bottom: 250px;
+    transform: scale(0);
+}
+
+.button-float{
+    font-size: 50px;
+    color: #5ab507;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.button-float:hover{
+    opacity: 100%;
+}
+
+/*Footer setting*/
+
+#rootSeven{
+    width: 100vw;
+}
+
+/*-------------------------Media Query max-width: 550px-------------------------*/
+
+@media (max-width: 550px){
+
+/*Floating button config*/
+
+.btn-float{
+    display: none;
+}
+
+}

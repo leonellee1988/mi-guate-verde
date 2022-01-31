@@ -86,3 +86,71 @@
 }
 
 }
+
+/*-------------------------Media Query min-width: 1920px-------------------------*/
+
+@media (min-width: 1920px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 100px;
+}
+
+.btn-float{
+    bottom: 420px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 20px solid rgb(230, 230, 230);
+}
+
+}
+
+/*-------------------------Media Query min-width: 2560px (QHD)-------------------------*/
+
+@media (min-width: 2560px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 150px;
+}
+
+.btn-float{
+    bottom: 500px;
+    right: 50px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 20px solid rgb(230, 230, 230);
+} 
+
+}
+
+/*-------------------------Media Query min-width: 3840px-------------------------*/
+
+@media (min-width: 3840px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 225px;
+}
+
+.btn-float{
+    bottom: 750px;
+    right: 100px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 20px solid rgb(230, 230, 230);
+}
+
+}

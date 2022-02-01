@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.dda625f5.css",
-    "main.js": "/static/js/main.711369b5.js",
-    "static/media/composterajar.png": "/static/media/composterajar.08d79c5a92e2b7e3e3cd.png",
-    "static/media/bacterspjar.png": "/static/media/bacterspjar.8e07161b4203f2cd93bd.png",
-    "static/media/bactersmjar.png": "/static/media/bactersmjar.015f2e4fd8453c3df205.png",
+    "main.css": "/static/css/main.75b3fdf9.css",
+    "main.js": "/static/js/main.eb1906a6.js",
     "static/media/onlyphoto.jpg": "/static/media/onlyphoto.dbbf9300988c47ad13e4.jpg",
-    "static/media/carbonactjar.png": "/static/media/carbonactjar.36529a3f9021b7cb6ee1.png",
     "static/media/MGVA.jpg": "/static/media/MGVA.1f6ed23719c915c0cec2.jpg",
     "static/media/MGVG.jpg": "/static/media/MGVG.167b488915c5f25e0100.jpg",
-    "static/media/huertojar.png": "/static/media/huertojar.728ae1af3faf5bf8827b.png",
     "static/media/MGVC.jpg": "/static/media/MGVC.79079269b372984c4303.jpg",
-    "static/media/fungicidajar.png": "/static/media/fungicidajar.1768f42a9288c258d7ad.png",
     "static/media/MGVD.jpg": "/static/media/MGVD.82d0db3d056b593ed4d9.jpg",
     "static/media/MGVCMob.jpg": "/static/media/MGVCMob.3f3a52c6868e50990549.jpg",
-    "static/media/polisulfuro.png": "/static/media/polisulfuro.c90bd8f3760a9783f5ed.png",
-    "static/media/bactersm.png": "/static/media/bactersm.d4c3f81ed24f798d3f64.png",
-    "static/media/abono.png": "/static/media/abono.c93b11428c0933bf965c.png",
-    "static/media/enraizadorjar.png": "/static/media/enraizadorjar.5882f04819e6cf10ace3.png",
-    "static/media/abonoDos.jpeg": "/static/media/abonoDos.6d192f46b557b3903e8f.jpeg",
-    "static/media/bactersp.png": "/static/media/bactersp.ade8d90470c26bd2a706.png",
+    "static/media/compost.png": "/static/media/compost.7fe58770dc40a3f11916.png",
+    "static/media/huerto.png": "/static/media/huerto.7bd5ce153b8012b9f191.png",
+    "static/media/abono.png": "/static/media/abono.e1dfee3d34c56d78dd9b.png",
+    "static/media/galon.png": "/static/media/galon.c7fee3b7fe66d4762710.png",
+    "static/media/cubeta.png": "/static/media/cubeta.4e663aa2bd8192fc5d7c.png",
+    "static/media/fung.png": "/static/media/fung.3b285d4a08fc28e8fda6.png",
+    "static/media/botella.png": "/static/media/botella.c82fc57a46978b4097de.png",
     "static/media/caobaFarms.jpg": "/static/media/caobaFarms.5f281be70dbe3ac7a8f1.jpg",
+    "static/media/galon02.png": "/static/media/galon02.570e3372bb32dcdbba4c.png",
+    "static/media/botella02.png": "/static/media/botella02.abbc280b8da895b78dff.png",
+    "static/media/galon03.png": "/static/media/galon03.e10daa8b25fbe4df4765.png",
+    "static/media/botella03.png": "/static/media/botella03.535d5c620f9729913808.png",
     "static/media/orquideasSYM.jpg": "/static/media/orquideasSYM.97287921db5e2cffc6f0.jpg",
     "index.html": "/index.html",
-    "main.dda625f5.css.map": "/static/css/main.dda625f5.css.map",
-    "main.711369b5.js.map": "/static/js/main.711369b5.js.map"
+    "main.75b3fdf9.css.map": "/static/css/main.75b3fdf9.css.map",
+    "main.eb1906a6.js.map": "/static/js/main.eb1906a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dda625f5.css",
-    "static/js/main.711369b5.js"
+    "static/css/main.75b3fdf9.css",
+    "static/js/main.eb1906a6.js"
   ]
 }

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.75b3fdf9.css",
-    "main.js": "/static/js/main.eb1906a6.js",
-    "static/media/onlyphoto.jpg": "/static/media/onlyphoto.dbbf9300988c47ad13e4.jpg",
-    "static/media/MGVA.jpg": "/static/media/MGVA.1f6ed23719c915c0cec2.jpg",
-    "static/media/MGVG.jpg": "/static/media/MGVG.167b488915c5f25e0100.jpg",
-    "static/media/MGVC.jpg": "/static/media/MGVC.79079269b372984c4303.jpg",
-    "static/media/MGVD.jpg": "/static/media/MGVD.82d0db3d056b593ed4d9.jpg",
-    "static/media/MGVCMob.jpg": "/static/media/MGVCMob.3f3a52c6868e50990549.jpg",
+    "main.css": "/static/css/main.261c8a50.css",
+    "main.js": "/static/js/main.f44b97c5.js",
+    "static/media/MGVUHD.jpeg": "/static/media/MGVUHD.27ee7f3e7eca5bd9286e.jpeg",
+    "static/media/MGV03.jpeg": "/static/media/MGV03.67be0a72a85e7a2b2563.jpeg",
+    "static/media/MGVMOBILE.jpeg": "/static/media/MGVMOBILE.8173019f59817e01606b.jpeg",
+    "static/media/MGV04.jpeg": "/static/media/MGV04.985c8e2bf4ef1b2b5222.jpeg",
+    "static/media/MGV01.jpeg": "/static/media/MGV01.e6b762dcca49003ac32c.jpeg",
+    "static/media/MGV02.jpeg": "/static/media/MGV02.b1daa9153a0dd519b457.jpeg",
     "static/media/compost.png": "/static/media/compost.7fe58770dc40a3f11916.png",
     "static/media/huerto.png": "/static/media/huerto.7bd5ce153b8012b9f191.png",
     "static/media/abono.png": "/static/media/abono.e1dfee3d34c56d78dd9b.png",
@@ -22,11 +22,11 @@
     "static/media/botella03.png": "/static/media/botella03.535d5c620f9729913808.png",
     "static/media/orquideasSYM.jpg": "/static/media/orquideasSYM.97287921db5e2cffc6f0.jpg",
     "index.html": "/index.html",
-    "main.75b3fdf9.css.map": "/static/css/main.75b3fdf9.css.map",
-    "main.eb1906a6.js.map": "/static/js/main.eb1906a6.js.map"
+    "main.261c8a50.css.map": "/static/css/main.261c8a50.css.map",
+    "main.f44b97c5.js.map": "/static/js/main.f44b97c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.75b3fdf9.css",
-    "static/js/main.eb1906a6.js"
+    "static/css/main.261c8a50.css",
+    "static/js/main.f44b97c5.js"
   ]
 }

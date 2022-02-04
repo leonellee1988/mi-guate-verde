@@ -104,6 +104,22 @@
 
 }
 
+/*-------------------------Media Query min-width: 1280px-------------------------*/
+
+@media (min-width: 1280px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 65px;
+}
+
+.btn-float{
+    bottom: 300px;
+}
+
+}
+
 /*-------------------------Media Query min-width: 1920px-------------------------*/
 
 @media (min-width: 1920px){

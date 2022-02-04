@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.261c8a50.css",
-    "main.js": "/static/js/main.f44b97c5.js",
+    "main.css": "/static/css/main.9ec62a4f.css",
+    "main.js": "/static/js/main.c1ea314f.js",
     "static/media/MGVUHD.jpeg": "/static/media/MGVUHD.27ee7f3e7eca5bd9286e.jpeg",
     "static/media/MGV03.jpeg": "/static/media/MGV03.67be0a72a85e7a2b2563.jpeg",
-    "static/media/MGVMOBILE.jpeg": "/static/media/MGVMOBILE.8173019f59817e01606b.jpeg",
+    "static/media/MGVMOBILE.jpeg": "/static/media/MGVMOBILE.3e28f9bc5a5dc1988509.jpeg",
     "static/media/MGV04.jpeg": "/static/media/MGV04.985c8e2bf4ef1b2b5222.jpeg",
     "static/media/MGV01.jpeg": "/static/media/MGV01.e6b762dcca49003ac32c.jpeg",
     "static/media/MGV02.jpeg": "/static/media/MGV02.b1daa9153a0dd519b457.jpeg",
@@ -22,11 +22,11 @@
     "static/media/botella03.png": "/static/media/botella03.535d5c620f9729913808.png",
     "static/media/orquideasSYM.jpg": "/static/media/orquideasSYM.97287921db5e2cffc6f0.jpg",
     "index.html": "/index.html",
-    "main.261c8a50.css.map": "/static/css/main.261c8a50.css.map",
-    "main.f44b97c5.js.map": "/static/js/main.f44b97c5.js.map"
+    "main.9ec62a4f.css.map": "/static/css/main.9ec62a4f.css.map",
+    "main.c1ea314f.js.map": "/static/js/main.c1ea314f.js.map"
   },
   "entrypoints": [
-    "static/css/main.261c8a50.css",
-    "static/js/main.f44b97c5.js"
+    "static/css/main.9ec62a4f.css",
+    "static/js/main.c1ea314f.js"
   ]
 }

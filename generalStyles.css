@@ -34,6 +34,7 @@
 
 #rootFour{
     width: 100vw;
+    background-color: #2956b2;;
 }
 
 /*Organic knowledge setting*/
@@ -118,6 +119,13 @@
     bottom: 300px;
 }
 
+/*Our clients setting*/
+
+#rootSix{
+    width: 100vw;
+    border-bottom: 15px solid rgb(230, 230, 230);
+}
+
 }
 
 /*-------------------------Media Query min-width: 1920px-------------------------*/
@@ -137,7 +145,7 @@
 /*Our clients setting*/
 
 #rootSix{
-    border-bottom: 20px solid rgb(230, 230, 230);
+    border-bottom: 25px solid rgb(230, 230, 230);
 }
 
 }
@@ -160,7 +168,7 @@
 /*Our clients setting*/
 
 #rootSix{
-    border-bottom: 20px solid rgb(230, 230, 230);
+    border-bottom: 30px solid rgb(230, 230, 230);
 } 
 
 }
@@ -183,7 +191,30 @@
 /*Our clients setting*/
 
 #rootSix{
-    border-bottom: 20px solid rgb(230, 230, 230);
+    border-bottom: 50px solid rgb(230, 230, 230);
+}
+
+}
+
+/*-------------------------Media Query min-width: 7680px (UHD 8K)-------------------------*/
+
+@media (min-width: 7680px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 400px;
+}
+
+.btn-float{
+    bottom: 1000px;
+    right: 100px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 100px solid rgb(230, 230, 230);
 }
 
 }

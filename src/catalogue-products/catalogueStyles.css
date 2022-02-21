@@ -1,0 +1,852 @@
+/*Setting farming products*/
+
+.container-farming-products{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.title-farming-catalogue{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.product-farming-item{
+    width: 15%;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+    border: 2px solid rgb(230, 230, 230);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.bacter-sp {
+    width: 185px;
+}
+
+.bacter-sm {
+    width: 160px;
+}
+
+.polisulfuro {
+    width: 160px;
+}
+
+.abono {
+    width: 150px;
+}
+
+/*Setting garden products*/
+
+.container-garden-products{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.title-garden-catalogue{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.product-garden-item{
+    width: 15%;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+    border: 2px solid rgb(230, 230, 230);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.bacter-sp-gr{
+    width: 95px;
+}
+
+.bacter-sm-gr{
+    width: 110px;
+}
+
+.carbon-activado-gr{
+    width: 175px;
+}
+
+.fungicida-gr{
+    width: 175px;
+}
+
+.enraizador-gr{
+    width: 110px;
+}
+
+.huerto-gr{
+    width: 190px;
+}
+
+.compostera-g{
+    width: 200px;
+}
+
+.abono-gr {
+    width: 150px;
+}
+
+.name-product{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+/*---------------Media Query max-width: 550px (mobile and tablet)---------------*/
+
+@media (max-width: 550px){
+
+/*Setting farming products*/
+
+.container-farming-products{
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-farming-catalogue{
+    font-size: 30px;
+
+}
+
+.product-farming-item{
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+.bacter-sp {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.bacter-sm {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.polisulfuro {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.abono {
+    padding-top: 25px;
+    width: 175px;
+}
+
+/*Setting garden products*/
+
+.container-garden-products{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.second-container{
+    padding-bottom: 30px;
+}
+
+.title-garden-catalogue{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+.product-garden-item{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.bacter-sp-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.bacter-sm-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.carbon-activado-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.fungicida-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.enraizador-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.huerto-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.compostera-g{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.abono-gr {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.name-product{
+    position: absolute;
+    margin-top: 220px;
+    font-size: 20px;
+    z-index: 0;
+}
+
+}
+
+/*---------------Media Query min-width: 550px (Tablet/mobile horizontal)---------------*/
+
+@media (min-width: 550px){
+
+/*Setting farming products*/
+
+.container-farming-products{
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-farming-catalogue{
+    font-size: 30px;
+}
+
+.product-farming-item{
+    width: 22%;
+    height: 225px;
+    margin-bottom: 20px;
+}
+
+.bacter-sp {
+    width: 140px;
+    padding-top: 15px;
+}
+
+.bacter-sm {
+    width: 140px;
+    padding-top: 15px;
+}
+
+.polisulfuro {
+    width: 140px;
+    padding-top: 15px;
+}
+
+.abono {
+    width: 140px;
+    padding-top: 15px;
+}
+
+/*Setting garden products*/
+
+.container-garden-products{
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.second-container{
+    padding-bottom: 30px;
+}
+
+.title-garden-catalogue{
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.product-garden-item{
+    width: 22%;
+    height: 225px;
+    margin-bottom: 20px;
+}
+
+.bacter-sp-gr{
+    width: 140px;
+    padding-top: 15px;
+}
+
+.bacter-sm-gr{
+    width: 140px;
+    padding-top: 15px;
+}
+
+.carbon-activado-gr{
+    width: 130px;
+    padding-top: 15px;
+}
+
+.fungicida-gr{
+    width: 140px;
+    padding-top: 15px;
+}
+
+.enraizador-gr{
+    width: 140px;
+    padding-top: 15px;
+}
+
+.huerto-gr{
+    width: 140px;
+    padding-top: 15px;
+}
+
+.compostera-g{
+    width: 130px;
+    padding-top: 15px;
+}
+
+.abono-gr {
+    width: 140px;
+    padding-top: 15px;
+}
+
+.name-product{
+    position: absolute;
+    margin-top: 175px;
+    font-size: 16px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 1280px (HD)-------------------------*/
+
+@media (min-width: 1280px){
+
+/*Setting farming products*/
+
+.container-farming-products{
+    flex-direction: row;
+}
+
+.product-farming-item{
+    width: 20%;
+    height: 300px;
+}
+
+.bacter-sp {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.bacter-sm {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.polisulfuro {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.abono {
+    padding-top: 25px;
+    width: 175px;
+}
+
+/*Setting garden products*/
+
+.container-garden-products{
+    flex-direction: row;
+}
+
+.product-garden-item{
+    width: 20%;
+    height: 300px;
+}
+
+.bacter-sp-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.bacter-sm-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.carbon-activado-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.fungicida-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.enraizador-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.huerto-gr{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.compostera-g{
+    padding-top: 25px;
+    width: 175px;
+}
+
+.abono-gr {
+    padding-top: 25px;
+    width: 175px;
+}
+
+.name-product{
+    position: absolute;
+    margin-top: 245px;
+    font-size: 22px;
+}
+        
+}
+
+/*-------------------------Media Query min-width: 1920px (FHD)-------------------------*/
+
+@media (min-width: 1920px){
+
+/*Setting titles*/
+
+.title-farming-catalogue{
+    font-size: 50px;
+}
+
+.title-garden-catalogue{
+    font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+/*Setting farming products*/
+
+.product-farming-item{
+    width: 20%;
+    height: 475px;
+}
+
+.bacter-sp {
+    width: 300px;
+    padding-top: 35px;
+}
+
+.bacter-sm {
+    width: 300px;
+    padding-top: 35px;
+}
+
+.polisulfuro {
+    width: 300px;
+    padding-top: 35px;
+}
+
+.abono {
+    width: 300px;
+    padding-top: 35px;
+}
+
+/*Setting garden products*/
+
+.product-garden-item{
+    width: 20%;
+    height: 475px;
+    margin-bottom: 40px;
+}
+
+.bacter-sp-gr{
+    width: 300px;
+    padding-top: 35px;
+}
+
+.bacter-sm-gr{
+    width: 300px;
+    padding-top: 35px;
+}
+
+.carbon-activado-gr{
+    width: 300px;
+    padding-top: 35px;
+}
+
+.fungicida-gr{
+    width: 300px;
+    padding-top: 35px;
+}
+
+.enraizador-gr{
+    width: 300px;
+    padding-top: 35px;
+}
+
+.huerto-gr{
+    width: 300px;
+    padding-top: 35px;
+}
+
+.compostera-g{
+    width: 300px;
+    padding-top: 35px;
+}
+
+.abono-gr {
+    width: 300px;
+    padding-top: 35px;
+}
+
+.name-product{
+    position: absolute;
+    margin-top: 395px;
+    font-size: 35px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 2560px (QHD)-------------------------*/
+
+@media (min-width: 2560px){
+
+/*Setting titles*/
+
+.title-farming-catalogue{
+    font-size: 75px;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.title-garden-catalogue{
+    font-size: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+}
+
+/*Setting farming products*/
+
+.product-farming-item{
+    width: 20%;
+    height: 650px;
+    border: 6px solid rgb(230, 230, 230);
+}
+
+.bacter-sp {
+    padding-top: 60px;
+    width: 400px;
+}
+
+.bacter-sm {
+    padding-top: 60px;
+    width: 400px;
+}
+
+.polisulfuro {
+    padding-top: 60px;
+    width: 400px;
+}
+
+.abono {
+    padding-top: 60px;
+    width: 400px;
+}
+
+/*Setting garden products*/
+
+.product-garden-item{
+    width: 20%;
+    height: 650px;
+    border: 6px solid rgb(230, 230, 230);
+    margin-bottom: 60px;
+}
+
+.bacter-sp-gr{
+    padding-top: 60px;
+    width: 400px;
+}
+
+.bacter-sm-gr{
+    padding-top: 60px;
+    width: 400px;
+}
+
+.carbon-activado-gr{
+    padding-top: 60px;
+    width: 400px;
+}
+
+.fungicida-gr{
+    padding-top: 60px;
+    width: 400px;
+}
+
+.enraizador-gr{
+    padding-top: 60px;
+    width: 400px;
+}
+
+.huerto-gr{
+    padding-top: 60px;
+    width: 400px;
+}
+
+.compostera-g{
+    padding-top: 60px;
+    width: 400px;
+}
+
+.abono-gr {
+    padding-top: 60px;
+    width: 400px;
+}
+
+.name-product{
+    position: absolute;
+    margin-top: 530px;
+    font-size: 45px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 3840px (UHD)-------------------------*/
+
+@media (min-width: 3840px){
+
+/*Setting titles*/
+
+.title-farming-catalogue{
+    font-size: 120px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.title-garden-catalogue{
+    font-size: 120px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*Setting farming products*/
+
+.product-farming-item{
+    width: 20%;
+    height: 900px;
+    border: 10px solid rgb(230, 230, 230);
+}
+
+.bacter-sp {
+    width: 585px;
+    padding-top: 100px;
+}
+
+.bacter-sm {
+    width: 585px;
+    padding-top: 100px;
+}
+
+.polisulfuro {
+    width: 585px;
+    padding-top: 100px;
+}
+
+.abono {
+    width: 585px;
+    padding-top: 100px;
+}
+
+/*Setting garden products*/
+
+.product-garden-item{
+    width: 20%;
+    height: 900px;
+    border: 10px solid rgb(230, 230, 230);
+    margin-bottom: 100px;
+}
+
+.bacter-sp-gr{
+    width: 585px;
+    padding-top: 100px;
+}
+
+.bacter-sm-gr{
+    width: 585px;
+    padding-top: 100px;
+}
+
+.carbon-activado-gr{
+    width: 585px;
+    padding-top: 100px;
+}
+
+.fungicida-gr{
+    width: 585px;
+    padding-top: 100px;
+}
+
+.enraizador-gr{
+    width: 585px;
+    padding-top: 100px;
+}
+
+.huerto-gr{
+    width: 585px;
+    padding-top: 100px;
+}
+
+.compostera-g{
+    width: 585px;
+    padding-top: 100px;
+}
+
+.abono-gr {
+    width: 585px;
+    padding-top: 100px;
+}
+
+.name-product{
+    position: absolute;
+    margin-top: 750px;
+    font-size: 70px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 7680px (UHD 8K)-------------------------*/
+
+@media (min-width: 7680px){
+
+/*Setting titles*/
+
+.title-farming-catalogue{
+    font-size: 120px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.title-garden-catalogue{
+    font-size: 225px;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/*Setting farming products*/
+
+.product-farming-item{
+    width: 20%;
+    height: 900px;
+    border: 10px solid rgb(230, 230, 230);
+}
+
+.bacter-sp {
+    width: 585px;
+    padding-top: 100px;
+}
+
+.bacter-sm {
+    width: 585px;
+    padding-top: 100px;
+}
+
+.polisulfuro {
+    width: 585px;
+    padding-top: 100px;
+}
+
+.abono {
+    width: 585px;
+    padding-top: 100px;
+}
+
+/*Setting garden products*/
+
+.product-garden-item{
+    width: 20%;
+    height: 1500px;
+    border: 20px solid rgb(230, 230, 230);
+    margin-bottom: 100px;
+}
+
+.bacter-sp-gr{
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.bacter-sm-gr{
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.carbon-activado-gr{
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.fungicida-gr{
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.enraizador-gr{
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.huerto-gr{
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.compostera-g{
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.abono-gr {
+    width: 1100px;
+    padding-top: 100px;
+}
+
+.name-product{
+    position: absolute;
+    margin-top: 1250px;
+    font-size: 125px;
+}
+
+}

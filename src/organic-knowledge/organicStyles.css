@@ -1,0 +1,155 @@
+/*Setting organic knowledge videos*/
+
+.organic-title{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #000;
+    background-color: rgb(230, 230, 230);
+}
+
+.container-videos-organic{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.container-videos-organic iframe{
+    width: 560px;
+    height: 315px;
+    margin-bottom: 30px;
+}
+
+/*---------------Media Query max-width: 550px (mobile and tablet)---------------*/
+
+@media (max-width: 550px){
+
+/*Setting organic knowledge videos*/
+
+.organic-title{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.container-videos-organic iframe{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+}
+
+/*---------------Media Query min-width: 550px (Tablet/mobile horizontal)---------------*/
+
+@media (min-width: 550px){
+
+/*Setting organic knowledge videos*/
+
+.organic-title{
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.container-videos-organic iframe{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 1280px (HD)-------------------------*/
+
+@media (min-width: 1280px){
+
+.container-videos-organic iframe{
+    width: 950px;
+    height: 633px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 1920px (FHD)-------------------------*/
+
+@media (min-width: 1920px){
+
+.organic-title{
+    font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.container-videos-organic iframe{
+    width: 1500px;
+    height: 800px;
+    margin-bottom: 100px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 2560px (QHD)-------------------------*/
+
+@media (min-width: 2560px){
+
+.organic-title{
+    font-size: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+}
+
+.container-videos-organic iframe{
+    width: 1850px;
+    height: 1233px;
+    margin-bottom: 125px;
+} 
+
+}
+
+/*-------------------------Media Query min-width: 3840px (UHD)-------------------------*/
+
+@media (min-width: 3840px){
+
+.organic-title{
+    font-size: 120px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-videos-organic iframe{
+    width: 3000px;
+    height: 2000px;
+    margin-bottom: 200px;
+}
+    
+}
+
+/*-------------------------Media Query min-width: 7680px (UHD 8K)-------------------------*/
+
+@media (min-width: 7680px){
+
+.organic-title{
+    font-size: 225px;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.container-videos-organic iframe{
+    width: 6000px;
+    height: 4000px;
+    margin-bottom: 200px;
+}
+
+}

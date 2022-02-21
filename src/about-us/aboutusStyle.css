@@ -1,0 +1,147 @@
+/*Setting images of the slider*/
+
+.container-image{
+    width: 400%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    animation: slider 20s infinite alternate linear;
+}
+
+.image-regular{
+    width: 100%;
+}
+
+@keyframes slider{
+
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+/*Block slider images for mobiles*/
+
+.container-image-mobile{
+    display: none;
+}
+
+/*---------------Media Query max-width: 550px (mobile and tablet)---------------*/
+
+@media (max-width: 550px){
+
+/*Single image for mobile and tablet setting*/
+
+.container-intro-message{
+    position: absolute;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(230, 230, 230, 0.6);
+    z-index: -1;
+}
+
+.intro-first-line{
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #2956b2;
+    text-shadow: 0.25px 0.25px #000;
+}
+
+.intro-second-line{
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #5ab507;
+    text-shadow: 0.25px 0.25px #000;
+}
+
+.container-image{
+    display: none;
+}
+
+.container-image-uhd{
+    display: none;
+}
+
+.container-image-mobile{
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.font-image{
+    width: 90%;
+    height: 550px;
+    align-self: center;
+    background: url(MGVMOBILE.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+}
+
+/*---------------Media Query min-width: 550px (Tablet/mobile horizontal)---------------*/
+
+@media (min-width: 550px){
+
+.container-image-uhd{
+    display: none;
+}    
+
+}
+
+/*-------------------------Media Query min-width: 1280px (HD)-------------------------*/
+
+@media (min-width: 1280px){
+
+.container-image-mobile-uhd{
+    display: none;
+}
+
+}
+
+/*-------------------------Media Query min-width: 1920px (FHD)-------------------------*/
+
+@media (min-width: 1920px){
+
+.container-image-mobile-uhd{
+    display: none;
+}
+
+}
+
+/*-------------------------Media Query min-width: 2560px (QHD)-------------------------*/
+
+@media (min-width: 2560px){
+
+.container-image-mobile-uhd{
+    display: none;
+}
+
+}
+
+/*-------------------------Media Query min-width: 3840px (UHD)-------------------------*/
+
+@media (min-width: 3840px){
+
+.container-image-mobile-uhd{
+    display: none;
+}
+
+}

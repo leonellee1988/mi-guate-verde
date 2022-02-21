@@ -1,0 +1,173 @@
+/*Setting footer*/
+
+.principal-container-contact{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.special-style{
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.info-item{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.container-net{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.net-item{
+    font-size: 45px;
+}
+
+.net-item a{
+    text-decoration: none;
+    color: #000
+}
+
+/*---------------Media Query max-width: 550px (mobile and tablet)---------------*/
+
+@media (max-width: 550px){
+
+/*Setting footer*/
+
+.principal-container-contact{
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container-info{
+    margin-bottom: 20px;
+}
+
+.container-net{
+    justify-content: space-around;
+}
+
+}
+
+/*---------------Media Query min-width: 550px (Tablet/mobile horizontal)---------------*/
+
+@media (min-width: 550px){
+
+/*Setting footer*/
+
+.principal-container-contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 1920px (FHD)-------------------------*/
+
+@media (min-width: 1920px){
+
+/*Setting footer*/
+
+.principal-container-contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.special-style{
+    font-size: 40px;
+}
+
+.info-item{
+    font-size: 38px;
+}
+
+.net-item{
+    font-size: 90px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 2560px (QHD)-------------------------*/
+
+@media (min-width: 2560px){
+   
+/*Setting footer*/
+
+.principal-container-contact{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.special-style{
+    font-size: 70px;
+}
+
+.info-item{
+    font-size: 50px;
+}
+
+.net-item{
+    font-size: 115px;
+}    
+
+}
+
+/*-------------------------Media Query min-width: 3840px (UHD)-------------------------*/
+
+@media (min-width: 3840px){
+
+/*Setting footer*/
+
+.principal-container-contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.special-style{
+    font-size: 100px;
+}
+
+.info-item{
+    font-size: 80px;
+}
+
+.net-item{
+    font-size: 175px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 7680px (UHD 8K)-------------------------*/
+
+@media (min-width: 7680px){
+
+/*Setting footer*/
+
+.principal-container-contact{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.special-style{
+    font-size: 175px;
+}
+
+.info-item{
+    font-size: 150px;
+}
+
+.net-item{
+    font-size: 300px;
+}
+
+}

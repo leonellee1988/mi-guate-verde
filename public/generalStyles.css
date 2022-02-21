@@ -1,0 +1,220 @@
+/*Google fonts:*/
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+/*Configuration reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header setting*/
+
+#root{
+    width: 100vw;
+}
+
+/*About us setting*/
+
+#rootTwo{
+    width: 100vw;
+    overflow: hidden;
+}
+
+/*Products menu setting*/
+
+#rootThree{
+    width: 100vw;
+}
+
+/*Products catalogue setting*/
+
+#rootFour{
+    width: 100vw;
+    background-color: #2956b2;;
+}
+
+/*Organic knowledge setting*/
+
+#rootFive{
+    width: 100vw;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    width: 100vw;
+    border-bottom: 10px solid rgb(230, 230, 230);
+}
+
+/*Floating button config*/
+
+.btn-float{
+    position: fixed;
+    right: 25px;
+    bottom: 250px;
+    transform: scale(0);
+}
+
+.button-float{
+    font-size: 50px;
+    color: #5ab507;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.button-float:hover{
+    opacity: 100%;
+}
+
+/*Footer setting*/
+
+#rootSeven{
+    width: 100vw;
+}
+
+/*-------------------------Media Query max-width: 550px-------------------------*/
+
+@media (max-width: 550px){
+
+/*Floating button config*/
+
+.btn-float{
+    display: none;
+}
+
+}
+
+/*---------------Media Query min-width: 550px (Tablet/mobile horizontal)---------------*/
+
+@media (min-width: 550px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 40px;
+}
+
+.btn-float{
+    bottom: 25px;
+    right: 15px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 1280px-------------------------*/
+
+@media (min-width: 1280px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 65px;
+}
+
+.btn-float{
+    bottom: 300px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    width: 100vw;
+    border-bottom: 15px solid rgb(230, 230, 230);
+}
+
+}
+
+/*-------------------------Media Query min-width: 1920px-------------------------*/
+
+@media (min-width: 1920px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 100px;
+}
+
+.btn-float{
+    bottom: 420px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 25px solid rgb(230, 230, 230);
+}
+
+}
+
+/*-------------------------Media Query min-width: 2560px (QHD)-------------------------*/
+
+@media (min-width: 2560px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 150px;
+}
+
+.btn-float{
+    bottom: 500px;
+    right: 50px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 30px solid rgb(230, 230, 230);
+} 
+
+}
+
+/*-------------------------Media Query min-width: 3840px-------------------------*/
+
+@media (min-width: 3840px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 225px;
+}
+
+.btn-float{
+    bottom: 750px;
+    right: 100px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 50px solid rgb(230, 230, 230);
+}
+
+}
+
+/*-------------------------Media Query min-width: 7680px (UHD 8K)-------------------------*/
+
+@media (min-width: 7680px){
+
+/*Floating button config*/
+
+.button-float{
+    font-size: 400px;
+}
+
+.btn-float{
+    bottom: 1000px;
+    right: 100px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 100px solid rgb(230, 230, 230);
+}
+
+}

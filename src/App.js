@@ -1,25 +1,72 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import Header from "./header/header";
+import AboutUs from "./about-us/aboutUs";
+//import ProductsMenu from "./products-menu/productsMenu";
+import CatalogueProducts from "./catalogue-products/catalogueProducts";
+import OrganicKnowledge from "./organic-knowledge/organic-knowledge";
+import OurCustomers from "./our-custumer/ourCustomers";
+import Footer from "./footer/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Header/>
+    </Fragment>
   );
-}
+};
 
-export default App;
+function AppTwo() {
+  return (
+    <Fragment>
+      <AboutUs/>
+    </Fragment>
+  );
+};
+
+/*function AppThree() {
+  return (
+    <Fragment>
+      <ProductsMenu/>
+    </Fragment>
+  );
+};*/
+
+function AppFour() {
+  return (
+    <Fragment>
+      <CatalogueProducts/>
+    </Fragment>
+  );
+};
+
+function AppFive() {
+  return (
+    <Fragment>
+      <OrganicKnowledge/>
+    </Fragment>
+  );
+};
+
+function AppSix() {
+  return (
+    <Fragment>
+      <OurCustomers/>
+    </Fragment>
+  );
+};
+
+function AppSeven() {
+  return (
+    <Fragment>
+      <Footer/>
+    </Fragment>
+  );
+};
+
+export { App };
+export { AppTwo };
+//export { AppThree };
+export { AppFour };
+export { AppFive };
+export { AppSix };
+export { AppSeven };

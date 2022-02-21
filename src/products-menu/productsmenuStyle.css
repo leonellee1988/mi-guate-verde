@@ -1,0 +1,266 @@
+/*Setting products menu's buttons*/
+
+.container-products-menu{
+    width: 100%;
+    height: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2956b2;
+}
+
+.title-part{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+    background-color: #2956b2;
+}
+
+.garden-icon{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.flower{
+    color: #5ab507;
+    font-size: 100px;
+}
+
+.farming-icon{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.plant{
+    color: #5ab507;
+    font-size: 100px;
+}
+
+.container-garden{
+    padding: 20px 20px;
+    top: 5px;
+    left: 100px;
+}
+
+.garden-title{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-farming{
+    padding: 20px 20px;
+    top: 5px;
+    right: 100px;
+}
+
+.farming-title{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.garden-title, .farming-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*---------------Media Query max-width: 550px (mobile and tablet)---------------*/
+
+@media (max-width: 550px){
+
+/*Setting products menu's buttons*/
+
+.container-products-menu{
+    height: 640px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-part{
+    font-size: 30px;
+}
+
+}
+
+/*---------------Media Query min-width: 550px (Tablet/mobile horizontal)---------------*/
+
+@media (min-width: 550px){
+
+/*Setting products menu's buttons*/
+
+.container-products-menu{
+    height: 325px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 1280px (HD)-------------------------*/
+
+@media (min-width: 1280px){
+
+/*Setting products menu's buttons*/
+
+.garden-title{
+    font-size: 30px;
+}
+
+.farming-title{
+    font-size: 30px;
+}
+
+.container-products-menu{
+    height: 340px;
+}
+        
+}
+
+/*-------------------------Media Query min-width: 1920px (FHD)-------------------------*/
+
+@media (min-width: 1920px){
+
+/*Setting products menu's buttons*/
+
+.container-products-menu{
+    height: 565px;
+}
+
+.title-part{
+    font-size: 50px;
+}
+
+.garden-icon{
+    width: 375px;
+    height: 375px;
+}
+
+.flower{
+    font-size: 225px;
+}
+
+.farming-icon{
+    width: 375px;
+    height: 375px;
+}
+
+.plant{
+    font-size: 225px;
+}
+
+.garden-title{
+    font-size: 45px;
+}
+
+.farming-title{
+    font-size: 45px;
+}
+
+}
+
+/*-------------------------Media Query min-width: 2560px (QHD)-------------------------*/
+
+@media (min-width: 2560px){
+
+/*Setting products menu's buttons*/
+
+.container-products-menu{
+    height: 825px;
+}
+
+.title-part{
+    font-size: 75px;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.garden-icon{
+    width: 575px;
+    height: 575px;
+}
+
+.flower{
+    font-size: 325px;
+}
+
+.farming-icon{
+    width: 575px;
+    height: 575px;
+}
+
+.plant{
+    font-size: 325px;
+}
+
+.garden-title{
+    font-size: 65px;
+}
+
+.farming-title{
+    font-size: 65px;
+}
+    
+}
+
+/*-------------------------Media Query min-width: 3840px (UHD)-------------------------*/
+
+@media (min-width: 3840px){
+
+/*Setting products menu's buttons*/
+
+.container-products-menu{
+    height: 1150px;
+}
+
+.title-part{
+    font-size: 125px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.garden-icon{
+    width: 800px;
+    height: 800px;
+}
+
+.flower{
+    font-size: 450px;
+}
+
+.farming-icon{
+    width: 800px;
+    height: 800px;
+}
+
+.plant{
+    font-size: 450px;
+}
+
+.garden-title{
+    font-size: 100px;
+}
+
+.farming-title{
+    font-size: 100px;
+}
+
+}

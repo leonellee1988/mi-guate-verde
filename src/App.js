@@ -11,62 +11,13 @@ function App() {
   return (
     <Fragment>
       <Header/>
-    </Fragment>
-  );
-};
-
-function AppTwo() {
-  return (
-    <Fragment>
       <AboutUs/>
-    </Fragment>
-  );
-};
-
-/*function AppThree() {
-  return (
-    <Fragment>
-      <ProductsMenu/>
-    </Fragment>
-  );
-};*/
-
-function AppFour() {
-  return (
-    <Fragment>
       <CatalogueProducts/>
-    </Fragment>
-  );
-};
-
-function AppFive() {
-  return (
-    <Fragment>
       <OrganicKnowledge/>
-    </Fragment>
-  );
-};
-
-function AppSix() {
-  return (
-    <Fragment>
       <OurCustomers/>
-    </Fragment>
-  );
-};
-
-function AppSeven() {
-  return (
-    <Fragment>
       <Footer/>
     </Fragment>
   );
 };
 
-export { App };
-export { AppTwo };
-//export { AppThree };
-export { AppFour };
-export { AppFive };
-export { AppSix };
-export { AppSeven };
+export default App;

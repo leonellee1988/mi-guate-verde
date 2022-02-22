@@ -1,6 +1,6 @@
 /*Setting farming products*/
 
-.container-farming-products{
+/*.container-farming-products{
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -44,17 +44,20 @@
 
 .abono {
     width: 150px;
-}
+}*/
 
 /*Setting garden products*/
 
 .container-garden-products{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 50px;
+    background-color: #2956b2;
 }
 
 .title-garden-catalogue{
@@ -63,6 +66,7 @@
     padding-left: 25px;
     padding-bottom: 50px;
     color: #fff;
+    background-color: #2956b2;
 }
 
 .product-garden-item{
@@ -192,7 +196,7 @@
 
 .carbon-activado-gr{
     padding-top: 25px;
-    width: 175px;
+    width: 150px;
 }
 
 .fungicida-gr{
@@ -207,12 +211,12 @@
 
 .huerto-gr{
     padding-top: 25px;
-    width: 175px;
+    width: 150px;
 }
 
 .compostera-g{
     padding-top: 25px;
-    width: 175px;
+    width: 150px;
 }
 
 .abono-gr {
@@ -235,7 +239,7 @@
 
 /*Setting farming products*/
 
-.container-farming-products{
+/*.container-farming-products{
     flex-direction: row;
     align-items: center;
 }
@@ -268,7 +272,7 @@
 .abono {
     width: 140px;
     padding-top: 15px;
-}
+}*/
 
 /*Setting garden products*/
 
@@ -276,6 +280,8 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .second-container{
@@ -348,7 +354,7 @@
 
 /*Setting farming products*/
 
-.container-farming-products{
+/*.container-farming-products{
     flex-direction: row;
 }
 
@@ -375,12 +381,14 @@
 .abono {
     padding-top: 25px;
     width: 175px;
-}
+}*/
 
 /*Setting garden products*/
 
 .container-garden-products{
     flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .product-garden-item{
@@ -442,9 +450,9 @@
 
 /*Setting titles*/
 
-.title-farming-catalogue{
+/*.title-farming-catalogue{
     font-size: 50px;
-}
+}*/
 
 .title-garden-catalogue{
     font-size: 55px;
@@ -455,7 +463,7 @@
 
 /*Setting farming products*/
 
-.product-farming-item{
+/*.product-farming-item{
     width: 20%;
     height: 475px;
 }
@@ -478,9 +486,14 @@
 .abono {
     width: 300px;
     padding-top: 35px;
-}
+}*/
 
 /*Setting garden products*/
+
+.container-garden-products{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 .product-garden-item{
     width: 20%;
@@ -542,12 +555,12 @@
 
 /*Setting titles*/
 
-.title-farming-catalogue{
+/*.title-farming-catalogue{
     font-size: 75px;
     padding-left: 80px;
     padding-top: 50px;
     padding-bottom: 75px;
-}
+}*/
 
 .title-garden-catalogue{
     font-size: 75px;
@@ -558,7 +571,7 @@
 
 /*Setting farming products*/
 
-.product-farming-item{
+/*.product-farming-item{
     width: 20%;
     height: 650px;
     border: 6px solid rgb(230, 230, 230);
@@ -582,9 +595,14 @@
 .abono {
     padding-top: 60px;
     width: 400px;
-}
+}*/
 
 /*Setting garden products*/
+
+.container-garden-products{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 .product-garden-item{
     width: 20%;
@@ -647,12 +665,12 @@
 
 /*Setting titles*/
 
-.title-farming-catalogue{
+/*.title-farming-catalogue{
     font-size: 120px;
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 100px;
-}
+}*/
 
 .title-garden-catalogue{
     font-size: 120px;
@@ -663,7 +681,7 @@
 
 /*Setting farming products*/
 
-.product-farming-item{
+/*.product-farming-item{
     width: 20%;
     height: 900px;
     border: 10px solid rgb(230, 230, 230);
@@ -687,7 +705,7 @@
 .abono {
     width: 585px;
     padding-top: 100px;
-}
+}*/
 
 /*Setting garden products*/
 
@@ -752,12 +770,12 @@
 
 /*Setting titles*/
 
-.title-farming-catalogue{
+/*.title-farming-catalogue{
     font-size: 120px;
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 100px;
-}
+}*/
 
 .title-garden-catalogue{
     font-size: 225px;
@@ -768,7 +786,7 @@
 
 /*Setting farming products*/
 
-.product-farming-item{
+/*.product-farming-item{
     width: 20%;
     height: 900px;
     border: 10px solid rgb(230, 230, 230);
@@ -792,9 +810,14 @@
 .abono {
     width: 585px;
     padding-top: 100px;
-}
+}*/
 
 /*Setting garden products*/
+
+.container-garden-products{
+    padding-left: 175px;
+    padding-right: 175px;
+}
 
 .product-garden-item{
     width: 20%;
@@ -847,6 +870,10 @@
     position: absolute;
     margin-top: 1250px;
     font-size: 125px;
+}
+
+.second-container{
+    padding-bottom: 150px;
 }
 
 }

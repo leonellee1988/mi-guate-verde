@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-
 import './catalogueStyles.css';
 import abono from './abono.png';
 //import bactersp from './galon.png';
@@ -65,7 +64,10 @@ const CatalogueProducts =()=>{
                     src={bacterspjar} 
                     alt="bacter sp para jardín"
                     className='bacter-sp-gr'/>
-                    <div className="name-product">Bacter SP</div>
+                    <a  
+                    href="/acerca-bacter-sp"
+                    target="_blank" 
+                    className="name-product">Bacter SP</a>
                 </div>
 
                 <div className="product-garden-item">
@@ -88,7 +90,10 @@ const CatalogueProducts =()=>{
                     <img src={fungicidajar}
                     alt="fungicida para jardín"
                     className='fungicida-gr'/>
-                    <div className="name-product">Fungicida</div>
+                    <a  
+                    href="/acerca-fungicida"
+                    target="_blank" 
+                    className="name-product">Fungicida</a>
                 </div>
             </div>
 
@@ -97,7 +102,10 @@ const CatalogueProducts =()=>{
                     <img src={enraizadorjar}
                     alt="enraizador para jardín"
                     className='enraizador-gr'/>
-                    <div className="name-product">Enraizador</div>
+                    <a  
+                    href="/acerca-enraizador"
+                    target="_blank" 
+                    className="name-product">Enraizador</a>
                 </div>
 
                 <div className="product-garden-item">
@@ -119,7 +127,10 @@ const CatalogueProducts =()=>{
                     src={abono} 
                     alt="abono solido"
                     className='abono-gr'/>
-                    <div className="name-product">Abono sólido</div>
+                    <a  
+                    href="/acerca-abono-solido"
+                    target="_blank" 
+                    className="name-product">Abono sólido</a>
                 </div>
             </div>
 

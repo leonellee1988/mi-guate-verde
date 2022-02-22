@@ -39,7 +39,7 @@
 }
 
 .container-videos-organic iframe{
-    width: 300px;
+    width: 85%;
     height: 200px;
     margin-bottom: 30px;
 }
@@ -60,7 +60,7 @@
 }
 
 .container-videos-organic iframe{
-    width: 600px;
+    width: 85%;
     height: 400px;
     margin-bottom: 30px;
 }

@@ -16,6 +16,44 @@
     overflow: hidden;
 }
 
+/*Header setting*/
+
+#root{
+    width: 100vw;
+}
+
+/*About us setting*/
+
+#rootTwo{
+    width: 100vw;
+    overflow: hidden;
+}
+
+/*Products menu setting*/
+
+#rootThree{
+    width: 100vw;
+}
+
+/*Products catalogue setting*/
+
+#rootFour{
+    width: 100vw;
+    background-color: #2956b2;;
+}
+
+/*Organic knowledge setting*/
+
+#rootFive{
+    width: 100vw;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    width: 100vw;
+    border-bottom: 10px solid rgb(230, 230, 230);
+}
 /*Floating button config*/
 
 .btn-float{
@@ -34,6 +72,12 @@
 
 .button-float:hover{
     opacity: 100%;
+}
+
+/*Footer setting*/
+
+#rootSeven{
+    width: 100vw;
 }
 
 /*-------------------------Media Query max-width: 550px-------------------------*/
@@ -76,7 +120,7 @@
 }
 
 .btn-float{
-    bottom: 225px;
+    bottom: 250px;
 }
 
 }
@@ -93,6 +137,12 @@
 
 .btn-float{
     bottom: 420px;
+}
+
+/*Our clients setting*/
+
+#rootSix{
+    border-bottom: 25px solid rgb(230, 230, 230);
 }
 
 }
